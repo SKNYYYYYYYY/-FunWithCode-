@@ -1,2 +1,1 @@
-cd logstash-8.16.1
-bin/logstash -e 'input { stdin { } } output { stdout {} }'
+sudo find / -type d -name "logstash-8.15.4" 2>/dev/null
