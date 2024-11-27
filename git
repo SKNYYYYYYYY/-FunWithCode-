@@ -1,3 +1,6 @@
-sudo apt install openssh-server
-sudo systemctl start ssh
-sudo ufw allow ssh
+sudo yum install -y openssh-server
+sudo systemctl start sshd
+sudo systemctl status firewalld
+sudo firewall-cmd --permanent --add-service=ssh
+sudo firewall-cmd --reload
+sudo systemctl status sshd
