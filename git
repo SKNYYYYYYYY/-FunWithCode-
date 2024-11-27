@@ -1,1 +1,1 @@
-sudo apt-get install apt-transport-https
+sudo rpm --import https://artifacts.elastic.co/GPG-KEY-elasticsearch
