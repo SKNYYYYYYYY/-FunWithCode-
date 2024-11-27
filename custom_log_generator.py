@@ -3,6 +3,7 @@ import logging
 import time
 import random
 from datetime import datetime
+
 #to print start time
 start_time = datetime.now()
 print(f"generating custom logs since {start_time.strftime('%H:%M:%S')}")
